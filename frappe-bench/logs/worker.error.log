@@ -1,0 +1,222 @@
+Traceback (most recent call last):
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 196, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+Traceback (most recent call last):
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    data = recv(self._sock, socket_read_size)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    return self.main(*args, **kwargs)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 196, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    p.execute()Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    Traceback (most recent call last):
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 198, in _read_from_socket
+    self.register_death()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    data = recv(self._sock, socket_read_size)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/_compat.py", line 72, in recv
+    p.execute()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    return sock.recv(*args, **kwargs)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 110, in <module>
+    main()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/bench_helper.py", line 20, in main
+    click.Group(commands=commands)(prog_name="bench")
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 829, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 782, in main
+    rv = self.invoke(ctx)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return execute(conn, stack, raise_on_error)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1259, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 1066, in invoke
+if not block and not conn.can_read(timeout=timeout):    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/click/core.py", line 610, in invoke
+    return callback(*args, **kwargs)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/commands/scheduler.py", line 203, in start_worker
+    start_worker(queue, quiet=quiet)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/apps/frappe/frappe/utils/background_jobs.py", line 196, in start_worker
+    Worker(queues, name=get_worker_name(queue)).work(logging_level=logging_level)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 626, in work
+    self.register_death()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/rq/worker.py", line 326, in register_death
+    return self._parser.can_read(timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    p.execute()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    return execute(conn, stack, raise_on_error)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 4019, in execute
+    return execute(conn, stack, raise_on_error)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3894, in _execute_transaction
+    self.parse_response(connection, '_')
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+    self.parse_response(connection, '_')
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3718, in run
+    pubsub.get_message(ignore_subscribe_messages=True,
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3617, in get_message
+    response = self.parse_response(block=False, timeout=timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3503, in parse_response
+    if not block and not conn.can_read(timeout=timeout):
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    response = self._parser.read_response()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
+
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 734, in can_read
+    return self._parser.can_read(timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 321, in can_read
+    return self._buffer and self._buffer.can_read(timeout)
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 230, in can_read
+    self._read_from_socket(timeout=timeout,
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 201, in _read_from_socket
+    raise ConnectionError(SERVER_CLOSED_CONNECTION_ERROR)
+redis.exceptions.ConnectionError: Connection closed by server.
+    self.parse_response(connection, '_')
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 3977, in parse_response
+    result = Redis.parse_response(
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/client.py", line 915, in parse_response
+    response = connection.read_response()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 739, in read_response
+    response = self._parser.read_response()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 324, in read_response
+    raw = self._buffer.readline()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 256, in readline
+    self._read_from_socket()
+  File "/home/euge0604/Desktop/str_modifier/frappe-bench/env/lib/python3.8/site-packages/redis/connection.py", line 222, in _read_from_socket
+    raise ConnectionError("Error while reading from socket: %s" %
+redis.exceptions.ConnectionError: Error while reading from socket: (104, 'Connection reset by peer')
