@@ -62,3 +62,82 @@
 2022-11-04 21:43:53,993 INFO /usr/local/bin/bench find
 2022-11-04 21:49:26,788 INFO /usr/local/bin/bench find
 2022-11-04 22:08:02,655 INFO /usr/local/bin/bench find
+2022-11-04 22:12:03,394 INFO /usr/local/bin/bench start
+2022-11-04 22:12:05,223 INFO /usr/local/bin/bench watch
+2022-11-04 22:12:05,957 INFO /usr/local/bin/bench worker --queue short
+2022-11-04 22:12:06,294 INFO /usr/local/bin/bench worker --queue long
+2022-11-04 22:12:06,350 INFO /usr/local/bin/bench worker --queue default
+2022-11-04 22:12:06,388 INFO /usr/local/bin/bench serve --port 8000
+2022-11-04 22:12:07,753 INFO /usr/local/bin/bench schedule
+2022-11-04 22:22:46,506 INFO /usr/local/bin/bench start
+2022-11-04 22:22:50,133 INFO /usr/local/bin/bench serve --port 8000
+2022-11-04 22:22:50,640 INFO /usr/local/bin/bench worker --queue default
+2022-11-04 22:22:50,801 INFO /usr/local/bin/bench worker --queue long
+2022-11-04 22:22:50,817 INFO /usr/local/bin/bench worker --queue short
+2022-11-04 22:22:51,077 INFO /usr/local/bin/bench schedule
+2022-11-04 22:22:52,667 INFO /usr/local/bin/bench watch
+2022-11-05 00:00:51,607 INFO /usr/local/bin/bench --verbose --site all backup
+2022-11-05 00:59:30,518 INFO /usr/local/bin/bench start
+2022-11-05 00:59:33,253 INFO /usr/local/bin/bench watch
+2022-11-05 00:59:33,342 INFO /usr/local/bin/bench serve --port 8000
+2022-11-05 00:59:33,381 INFO /usr/local/bin/bench worker --queue short
+2022-11-05 00:59:33,469 INFO /usr/local/bin/bench schedule
+2022-11-05 00:59:33,571 INFO /usr/local/bin/bench worker --queue default
+2022-11-05 00:59:33,595 INFO /usr/local/bin/bench worker --queue long
+2022-11-05 01:00:10,522 INFO /usr/local/bin/bench start
+2022-11-05 01:00:12,924 INFO /usr/local/bin/bench worker --queue long
+2022-11-05 01:00:13,009 INFO /usr/local/bin/bench watch
+2022-11-05 01:00:13,280 INFO /usr/local/bin/bench worker --queue default
+2022-11-05 01:00:13,684 INFO /usr/local/bin/bench worker --queue short
+2022-11-05 01:00:13,707 INFO /usr/local/bin/bench schedule
+2022-11-05 01:00:13,741 INFO /usr/local/bin/bench serve --port 8000
+2022-11-05 01:03:44,610 INFO /usr/local/bin/bench build --app str_modifier_app
+2022-11-05 01:06:06,225 INFO /usr/local/bin/bench new-site str_modifier.com
+2022-11-05 01:06:17,872 INFO /usr/local/bin/bench start
+2022-11-05 01:06:19,931 INFO /usr/local/bin/bench serve --port 8000
+2022-11-05 01:06:19,934 INFO /usr/local/bin/bench worker --queue long
+2022-11-05 01:06:20,181 INFO /usr/local/bin/bench watch
+2022-11-05 01:06:20,257 INFO /usr/local/bin/bench schedule
+2022-11-05 01:06:20,330 INFO /usr/local/bin/bench worker --queue short
+2022-11-05 01:06:21,589 INFO /usr/local/bin/bench worker --queue default
+2022-11-05 01:08:49,584 INFO /usr/local/bin/bench new-site modifier.com
+2022-11-05 01:20:19,525 INFO /usr/local/bin/bench start
+2022-11-05 01:20:21,618 INFO /usr/local/bin/bench serve --port 8000
+2022-11-05 01:20:21,714 INFO /usr/local/bin/bench worker --queue short
+2022-11-05 01:20:21,978 INFO /usr/local/bin/bench worker --queue default
+2022-11-05 01:20:22,055 INFO /usr/local/bin/bench worker --queue long
+2022-11-05 01:20:22,585 INFO /usr/local/bin/bench schedule
+2022-11-05 01:20:22,600 INFO /usr/local/bin/bench watch
+2022-11-05 01:21:26,737 INFO /usr/local/bin/bench --site modifier.com add-to-hosts
+2022-11-05 01:22:11,689 INFO /usr/local/bin/bench start
+2022-11-05 01:22:13,776 INFO /usr/local/bin/bench schedule
+2022-11-05 01:22:14,019 INFO /usr/local/bin/bench serve --port 8000
+2022-11-05 01:22:14,233 INFO /usr/local/bin/bench worker --queue long
+2022-11-05 01:22:14,370 INFO /usr/local/bin/bench worker --queue default
+2022-11-05 01:22:14,547 INFO /usr/local/bin/bench worker --queue short
+2022-11-05 01:22:14,782 INFO /usr/local/bin/bench watch
+2022-11-05 01:23:56,764 INFO /usr/local/bin/bench start
+2022-11-05 01:23:58,463 INFO /usr/local/bin/bench worker --queue short
+2022-11-05 01:23:58,910 INFO /usr/local/bin/bench schedule
+2022-11-05 01:23:59,029 INFO /usr/local/bin/bench serve --port 8000
+2022-11-05 01:23:59,333 INFO /usr/local/bin/bench worker --queue default
+2022-11-05 01:23:59,505 INFO /usr/local/bin/bench worker --queue long
+2022-11-05 01:23:59,561 INFO /usr/local/bin/bench watch
+2022-11-05 01:26:33,626 INFO /usr/local/bin/bench --site modifier.com install str_modifier_app
+2022-11-05 01:26:33,683 WARNING /usr/local/bin/bench --site modifier.com install str_modifier_app executed with exit code 2
+2022-11-05 01:27:13,268 INFO /usr/local/bin/bench --site modifier.com install-app str_modifier_app
+2022-11-05 01:27:47,901 INFO /usr/local/bin/bench --site modifier.com list-apps
+2022-11-05 01:28:36,705 INFO /usr/local/bin/bench start
+2022-11-05 01:28:39,359 INFO /usr/local/bin/bench schedule
+2022-11-05 01:28:39,494 INFO /usr/local/bin/bench watch
+2022-11-05 01:28:39,510 INFO /usr/local/bin/bench serve --port 8000
+2022-11-05 01:28:39,619 INFO /usr/local/bin/bench worker --queue short
+2022-11-05 01:28:39,700 INFO /usr/local/bin/bench worker --queue long
+2022-11-05 01:28:39,930 INFO /usr/local/bin/bench worker --queue default
+2022-11-05 01:36:20,424 INFO /usr/local/bin/bench start
+2022-11-05 01:36:22,790 INFO /usr/local/bin/bench watch
+2022-11-05 01:36:23,031 INFO /usr/local/bin/bench worker --queue short
+2022-11-05 01:36:23,038 INFO /usr/local/bin/bench serve --port 8000
+2022-11-05 01:36:23,102 INFO /usr/local/bin/bench worker --queue long
+2022-11-05 01:36:23,200 INFO /usr/local/bin/bench worker --queue default
+2022-11-05 01:36:23,323 INFO /usr/local/bin/bench schedule

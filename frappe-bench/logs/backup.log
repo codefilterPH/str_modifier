@@ -1,1 +1,7 @@
 Please specify --site sitename
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _1bf747022fb45725 -p********** _1bf747022fb45725 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./str_modifier.com/private/backups/20221104_213303-str_modifier_com-database.sql.gz
+
+Backup Summary for str_modifier.com at 2022-11-04 21:37:21.253668
+Config  : ./str_modifier.com/private/backups/20221104_213303-str_modifier_com-site_config_backup.json 158.0B
+Database: ./str_modifier.com/private/backups/20221104_213303-str_modifier_com-database.sql.gz         1.3MiB
+Backup for Site str_modifier.com has been successfully completed
