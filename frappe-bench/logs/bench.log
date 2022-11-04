@@ -24,3 +24,41 @@
 2022-11-04 11:39:15,822 DEBUG bench build --app str_modifier_app
 2022-11-04 11:39:16,448 INFO /usr/local/bin/bench build --app str_modifier_app
 2022-11-04 12:00:02,762 INFO /usr/local/bin/bench --verbose --site all backup
+2022-11-04 14:51:20,460 INFO /usr/local/bin/bench new-site str_modifier.com
+2022-11-04 18:41:29,464 INFO /usr/local/bin/bench get-app erpnext --branch version-13
+2022-11-04 18:41:31,012 LOG Getting erpnext
+2022-11-04 18:41:31,015 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-13 --depth 1 --origin upstream
+2022-11-04 18:41:54,796 LOG Installing erpnext
+2022-11-04 18:41:55,329 DEBUG cd /home/euge0604/Desktop/str_modifier/frappe-bench && /home/euge0604/Desktop/str_modifier/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/euge0604/Desktop/str_modifier/frappe-bench/apps/erpnext 
+2022-11-04 18:46:38,739 DEBUG cd /home/euge0604/Desktop/str_modifier/frappe-bench/apps/erpnext && yarn install
+2022-11-04 18:46:57,702 DEBUG bench build --app erpnext
+2022-11-04 18:46:58,231 INFO /usr/local/bin/bench build --app erpnext
+2022-11-04 18:52:11,577 INFO /usr/local/bin/bench --site str_modifier.com install-app erpnext
+2022-11-04 19:47:12,759 INFO /usr/local/bin/bench start
+2022-11-04 19:47:14,836 INFO /usr/local/bin/bench worker --queue short
+2022-11-04 19:47:15,059 INFO /usr/local/bin/bench worker --queue long
+2022-11-04 19:47:15,519 INFO /usr/local/bin/bench serve --port 8000
+2022-11-04 19:47:15,626 INFO /usr/local/bin/bench schedule
+2022-11-04 19:47:15,774 INFO /usr/local/bin/bench worker --queue default
+2022-11-04 19:47:16,556 INFO /usr/local/bin/bench watch
+2022-11-04 21:28:24,026 INFO /usr/local/bin/bench start
+2022-11-04 21:28:26,479 INFO /usr/local/bin/bench schedule
+2022-11-04 21:28:26,789 INFO /usr/local/bin/bench serve --port 8000
+2022-11-04 21:28:26,880 INFO /usr/local/bin/bench worker --queue default
+2022-11-04 21:28:27,746 INFO /usr/local/bin/bench worker --queue long
+2022-11-04 21:28:28,325 INFO /usr/local/bin/bench watch
+2022-11-04 21:28:28,674 INFO /usr/local/bin/bench worker --queue short
+2022-11-04 21:35:06,296 INFO /usr/local/bin/bench start 127.0.0.1:8000
+2022-11-04 21:35:06,471 WARNING /usr/local/bin/bench start 127.0.0.1:8000 executed with exit code 2
+2022-11-04 21:35:14,069 INFO /usr/local/bin/bench start 127.0.0.1
+2022-11-04 21:35:14,082 WARNING /usr/local/bin/bench start 127.0.0.1 executed with exit code 2
+2022-11-04 21:35:21,407 INFO /usr/local/bin/bench start
+2022-11-04 21:35:24,393 INFO /usr/local/bin/bench watch
+2022-11-04 21:35:24,827 INFO /usr/local/bin/bench worker --queue default
+2022-11-04 21:35:25,039 INFO /usr/local/bin/bench serve --port 8000
+2022-11-04 21:35:25,371 INFO /usr/local/bin/bench worker --queue short
+2022-11-04 21:35:25,455 INFO /usr/local/bin/bench schedule
+2022-11-04 21:35:25,674 INFO /usr/local/bin/bench worker --queue long
+2022-11-04 21:43:53,993 INFO /usr/local/bin/bench find
+2022-11-04 21:49:26,788 INFO /usr/local/bin/bench find
+2022-11-04 22:08:02,655 INFO /usr/local/bin/bench find

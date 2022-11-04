@@ -17,5 +17,15 @@
         "required": [],
         "idx": 2,
         "version": "0.0.1"
+    },
+    "erpnext": {
+        "is_repo": true,
+        "resolution": {
+            "commit_hash": "6d1ae68d703fa654c76a4474de2eb401c26a8b16",
+            "branch": "version-13"
+        },
+        "required": [],
+        "idx": 3,
+        "version": "13.41.0"
     }
 }

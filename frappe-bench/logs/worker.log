@@ -13,3 +13,48 @@
 11:36:51 Warm shut down requested
 11:36:51 Warm shut down requested
 11:36:51 Warm shut down requested
+19:47:23 Worker rq:worker:241235c538114e5f865b51dfa8c6be05.euge0604-VirtualBox.166561.default: started, version 1.8.1
+19:47:23 Subscribing to channel rq:pubsub:241235c538114e5f865b51dfa8c6be05.euge0604-VirtualBox.166561.default
+19:47:23 *** Listening on default...
+19:47:23 Cleaning registries for queue: default
+19:47:23 Worker rq:worker:380a90e04a71412bb904eb07e89eb7e2.euge0604-VirtualBox.166541.long: started, version 1.8.1
+19:47:23 Subscribing to channel rq:pubsub:380a90e04a71412bb904eb07e89eb7e2.euge0604-VirtualBox.166541.long
+19:47:23 *** Listening on long...
+19:47:23 Cleaning registries for queue: long
+19:47:25 Worker rq:worker:f0e77c6277e94629827e94473c996ed2.euge0604-VirtualBox.166559.short: started, version 1.8.1
+19:47:25 Subscribing to channel rq:pubsub:f0e77c6277e94629827e94473c996ed2.euge0604-VirtualBox.166559.short
+19:47:25 *** Listening on short...
+19:47:25 Cleaning registries for queue: short
+19:49:52 Warm shut down requested
+19:49:52 Warm shut down requested
+19:49:52 Warm shut down requested
+21:28:38 Worker rq:worker:cf2c1d634a324825a9e2f06b47155fae.euge0604-VirtualBox.171355.default: started, version 1.8.1
+21:28:38 Subscribing to channel rq:pubsub:cf2c1d634a324825a9e2f06b47155fae.euge0604-VirtualBox.171355.default
+21:28:38 *** Listening on default...
+21:28:38 Cleaning registries for queue: default
+21:28:38 Worker rq:worker:a2cf43e1c2084f538e50519ae3cab814.euge0604-VirtualBox.171339.short: started, version 1.8.1
+21:28:38 Subscribing to channel rq:pubsub:a2cf43e1c2084f538e50519ae3cab814.euge0604-VirtualBox.171339.short
+21:28:38 *** Listening on short...
+21:28:38 Cleaning registries for queue: short
+21:28:39 Worker rq:worker:277181c735314f6c8df92554c6ad824c.euge0604-VirtualBox.171344.long: started, version 1.8.1
+21:28:39 Subscribing to channel rq:pubsub:277181c735314f6c8df92554c6ad824c.euge0604-VirtualBox.171344.long
+21:28:39 *** Listening on long...
+21:28:39 Cleaning registries for queue: long
+21:34:43 Warm shut down requested
+21:34:43 Warm shut down requested
+21:34:43 Warm shut down requested
+21:35:35 Worker rq:worker:482ffe499e9a48a8be6857d69eb2d57e.euge0604-VirtualBox.176079.default: started, version 1.8.1
+21:35:35 Subscribing to channel rq:pubsub:482ffe499e9a48a8be6857d69eb2d57e.euge0604-VirtualBox.176079.default
+21:35:36 *** Listening on default...
+21:35:36 Cleaning registries for queue: default
+21:35:36 Worker rq:worker:74854933c2fd4f918d57d51c87c258fa.euge0604-VirtualBox.176081.long: started, version 1.8.1
+21:35:36 Subscribing to channel rq:pubsub:74854933c2fd4f918d57d51c87c258fa.euge0604-VirtualBox.176081.long
+21:35:36 *** Listening on long...
+21:35:36 Cleaning registries for queue: long
+21:35:36 Worker rq:worker:d7b87c6c94454698a97bb5e492153f83.euge0604-VirtualBox.176076.short: started, version 1.8.1
+21:35:36 Subscribing to channel rq:pubsub:d7b87c6c94454698a97bb5e492153f83.euge0604-VirtualBox.176076.short
+21:35:36 *** Listening on short...
+21:35:36 Cleaning registries for queue: short
+21:43:41 Warm shut down requested
+21:43:41 Warm shut down requested
+21:43:41 Warm shut down requested
